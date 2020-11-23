@@ -1,1 +1,48 @@
 /*  */
+
+body {
+  background-color: #252b39;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #525e65;
+  opacity: 0.7;
+  font-family: "Blinker", sans-serif;
+  font-size: 1.5rem;
+  border-radius: 25px;
+}
+
+.navbar > li {
+  float: right;
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 1.4rem 1.6rem;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #9bffd0;
+  animation-duration: 1s;
+  animation-name: navblink;
+  animation-iteration-count: infinite;
+}
+
+@keyframes navblink {
+  from {
+  }
+
+  50% {
+    padding-top: 0%;
+  }
+
+  to {
+  }
+}
