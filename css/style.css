@@ -2,6 +2,16 @@
 
 body {
   background-color: #252b39;
+  font-family: "Blinker", sans-serif;
+  color: white;
+}
+
+/* Navigation */
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .navbar {
@@ -11,7 +21,7 @@ body {
   overflow: hidden;
   background-color: #525e65;
   opacity: 0.7;
-  font-family: "Blinker", sans-serif;
+
   font-size: 1.5rem;
   border-radius: 25px;
 }
@@ -45,4 +55,30 @@ li a:hover {
 
   to {
   }
+}
+
+/* home */
+
+.titlesec {
+  height: 500vh;
+  font-variant: small-caps;
+}
+
+/* footer */
+
+footer {
+  height: 20vh;
+  margin: 0;
+  overflow: hidden;
+  background-color: #525e65;
+  opacity: 0.7;
+
+  font-size: 1.5rem;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: center;
+
+  text-decoration: none;
 }
