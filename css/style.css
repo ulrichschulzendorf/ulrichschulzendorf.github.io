@@ -1,7 +1,9 @@
-/*  */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  background-color: #252b39;
+  background: linear-gradient(0deg, #24a4c4, black);
 
   font-family: "Special Elite", cursive;
   color: white;
@@ -10,7 +12,6 @@ body {
 /* Navigation */
 
 nav {
-  /* position: -webkit-sticky; */
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -63,7 +64,7 @@ li a:hover {
 
 .home {
   height: 120vh;
-  background-color: #24a4c4;
+  /* background-color: #24a4c4; */
   /* font-variant: small-caps; */
 }
 
@@ -73,9 +74,13 @@ li a:hover {
   height: 120vh;
 }
 
+/* service */
+
 .service {
   height: 120vh;
 }
+
+/* contact  */
 
 .contact {
   height: 120vh;
@@ -84,18 +89,19 @@ li a:hover {
 /* footer */
 
 footer {
-  height: 20vh;
-  margin: 0;
+  height: 60vh;
+  width: 60vh;
+  margin-left: 50%;
+  margin-top: -15%;
   overflow: hidden;
-  background-color: #525e65;
+  background-color: rgb(63, 63, 58);
+  text-align: center;
   opacity: 0.7;
-
-  font-size: 1.5rem;
-  border-radius: 25px;
+  color: white;
+  /* font-size: 0.5rem; */
+  border-radius: 50%;
   display: flex;
   align-items: center;
-  color: white;
-  text-align: center;
-
   text-decoration: none;
+  box-shadow: 0.5rem 0.5rem whitesmoke;
 }
