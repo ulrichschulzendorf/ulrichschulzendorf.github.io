@@ -9,6 +9,14 @@ body {
   color: white;
 }
 
+/* Rocket */
+
+.rocket {
+  bottom: 10vh;
+  position: fixed;
+  margin-left: 1vh;
+}
+
 /* Navigation */
 
 nav {
