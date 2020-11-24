@@ -84,6 +84,7 @@ li a:hover {
 
 .contact {
   height: 120vh;
+  background-image: url(/ulrichschulzendorf.github.io/img/stars.png);
 }
 
 /* footer */
@@ -96,12 +97,16 @@ footer {
   overflow: hidden;
   background-color: rgb(63, 63, 58);
   text-align: center;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   color: white;
   /* font-size: 0.5rem; */
   border-radius: 50%;
   display: flex;
   align-items: center;
   text-decoration: none;
-  box-shadow: 0.5rem 0.5rem whitesmoke;
+  box-shadow: 0.5rem 0rem 0.5rem whitesmoke;
+}
+
+#stars {
+  background-image: url(/ulrichschulzendorf.github.io/img/stars.png);
 }
