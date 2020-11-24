@@ -11,12 +11,58 @@ body {
 
 /* Rocket */
 
-.rocket {
-  bottom: 10vh;
+#rocket {
+  height: 60vh;
+  bottom: 0;
   position: fixed;
-  margin-left: 1vh;
+  margin-left: 5vh;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  /* background-color: aqua; */
 }
 
+@keyframes slidein {
+  from {
+    bottom: -60vh;
+  }
+
+  to {
+    bottom: 0;
+  }
+}
+
+#rocket-img {
+  height: 50%;
+  width: 50%;
+  margin-left: auto;
+  animation-name: turbo;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+}
+
+@keyframes turbo {
+  from {
+    padding-left: 0vw;
+  }
+  /* 25% {
+    margin-left: 0.5vw;
+  } */
+
+  /* 33% {
+    margin-left: 0.5vw;
+  } */
+
+  /* 66% {
+    margin-left: 0vw;
+  } */
+
+  to {
+    margin-top: 1vh;
+    padding-left: 1.5vw;
+  }
+}
 /* Navigation */
 
 nav {
@@ -71,7 +117,7 @@ li a:hover {
 /* home */
 
 .home {
-  height: 120vh;
+  height: 100vh;
   /* background-color: #24a4c4; */
   /* font-variant: small-caps; */
 }
