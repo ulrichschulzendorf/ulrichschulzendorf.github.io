@@ -2,16 +2,18 @@
 
 body {
   background-color: #252b39;
-  font-family: "Blinker", sans-serif;
+
+  font-family: "Special Elite", cursive;
   color: white;
 }
 
 /* Navigation */
 
 nav {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  /* position: -webkit-sticky; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .navbar {
@@ -27,7 +29,7 @@ nav {
 }
 
 .navbar > li {
-  float: right;
+  float: left;
 }
 
 li a {
@@ -59,9 +61,24 @@ li a:hover {
 
 /* home */
 
-.titlesec {
-  height: 500vh;
-  font-variant: small-caps;
+.home {
+  height: 120vh;
+  background-color: #24a4c4;
+  /* font-variant: small-caps; */
+}
+
+/* about */
+
+.about {
+  height: 120vh;
+}
+
+.service {
+  height: 120vh;
+}
+
+.contact {
+  height: 120vh;
 }
 
 /* footer */
