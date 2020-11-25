@@ -160,9 +160,79 @@ h2 {
 
 /* contact  */
 
-.contact {
+#contact {
   height: 120vh;
+}
+
+.contact {
   background-image: url(/ulrichschulzendorf.github.io/img/stars.png);
+  /* background-color: azure; */
+  height: 120vh;
+  display: flex;
+}
+
+.map {
+  margin-top: 20vh;
+  margin-left: 20vw;
+}
+
+.adress > ul {
+  list-style: none;
+  line-height: 2rem;
+}
+
+.form {
+  margin-top: 18vh;
+  margin-left: 2vw;
+}
+
+form {
+  margin: 8vh auto;
+  width: 28vw;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+form > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 5vw;
+  text-align: right;
+}
+
+input,
+textarea {
+  width: 16vw;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 5vw;
+}
+
+button {
+  margin-left: 0.5em;
 }
 
 /* footer */
