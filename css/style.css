@@ -187,7 +187,7 @@ h2 {
 }
 
 form {
-  margin: 8vh auto;
+  margin: 7vh auto;
   width: 28vw;
   padding: 1em;
   border: 1px solid #ccc;
@@ -249,8 +249,11 @@ footer {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  text-decoration: none;
+  /* text-decoration: none; */
   box-shadow: 0.5rem 0rem 0.5rem whitesmoke;
+}
+
+.footer-bla {
 }
 
 #stars {
