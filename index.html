@@ -1,19 +1,91 @@
 <!DOCTYPE html>
 
-<META HTTP-EQUIV="Refresh" CONTENT="1; URL=index2.html#home">
+<META HTTP-EQUIV="Refresh" CONTENT="5; URL=index2.html#home">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Ulrich Schulzendorf">
     <meta name="description" content="A Web Developer's Portfolio">
+    
 <html>
 
 <head>
+<style>
+body{
+    background-color: black;
+    display: grid;
+justify-content: center;
+align-items: center;
+    
+
+}
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.cdiv {
+  animation: counter 4s;
+  counter-reset: num var(--num);
+  font: 800 5rem system-ui;
+  padding: 5rem;
+  color: white;
+  
+}
+.cdiv::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num: 3;
+  }
+  to {
+    --num: 0;
+  }
+}
+
+
+.ldiv {
+font-size: 3rem;
+animation-name: lift;
+animation-duration: 2s;
+animation-delay: 3s;
+color: black;
+animation-iteration-count: 1;
+font-variant: small-caps;
+
+}
+
+@keyframes lift {
+
+    from {
+        color: black;
+    }
+
+    to {
+color: white;
+
+    }
+}
+
+
+
+
+</style>
+
+
     <title>Schulzendorf's WebDev Portfolio</title>
 
 </head>
 
-<body style="background-color: black;">
+<body>
 
+   <div class="cdiv"></div></br> 
+   <div class=ldiv>
+<h1>lift off !</h1>
+</div>
 </body>
 
 </html>

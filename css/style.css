@@ -19,6 +19,7 @@ body {
   animation-duration: 3s;
   animation-name: slidein;
   animation-iteration-count: 1;
+  /* animation-delay: 2s; */
 }
 
 @keyframes slidein {
