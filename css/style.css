@@ -141,7 +141,7 @@ h2 {
   margin-left: 2vw;
   opacity: 0.7;
   border: 3px solid white;
-  box-shadow: 0.9rem 0rem 0.5rem whitesmoke;
+  box-shadow: 0.9rem 0.5rem 0.5rem whitesmoke;
 }
 
 .about-img:hover {
@@ -189,7 +189,7 @@ h2 {
 }
 
 form {
-  margin: 7vh auto;
+  margin: 5vh auto;
   width: 28vw;
   padding: 1em;
   border: 1px solid #ccc;
