@@ -107,6 +107,12 @@ li a:hover {
 
 .home {
   height: 100vh;
+  margin-right: 0;
+  margin-left: auto;
+  width: 70vw;
+  padding-top: 42vh;
+  padding-right: 8vw;
+  padding-left: 20vw;
 }
 
 h2 {
