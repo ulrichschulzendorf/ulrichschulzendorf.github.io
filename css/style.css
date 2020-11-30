@@ -154,11 +154,14 @@ h2 {
 
 /* service */
 
-.service {
+#service {
   height: 120vh;
-  display: flex;
+}
+
+.service {
   margin-left: 25vw;
-  margin-top: 28vh;
+  margin-top: 20vh;
+  display: inline-flex;
 }
 
 .htmllogo {
@@ -166,6 +169,7 @@ h2 {
   width: auto;
   margin: 5vh;
   opacity: 0.7;
+  display: inline;
 }
 
 .htmllogo:hover {
@@ -177,6 +181,7 @@ h2 {
   width: auto;
   margin: 5vh;
   opacity: 0.7;
+  display: inline;
 }
 
 .csslogo:hover {
